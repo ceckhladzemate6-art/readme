@@ -1,0 +1,58 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* შეცვლილია .box-იდან .container-ზე */
+        .container {
+            height : 1000px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(253, 252, 252);
+            flex-direction: column;
+
+            
+        }
+
+        .boxitem {
+            width: 100px;
+            height: 100px;
+            color: rgb(252, 121, 121);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+
+            &:nth-child(1) {
+                background-color: rgb(34, 6, 6);
+            }
+
+            &:nth-child(2) {
+                background-color: rgb(34, 6, 6);
+            }
+
+            &:nth-child(3) {
+                background-color: rgb(34, 6, 6);
+            }
+        }
+ 
+        .sahur {
+            height: 200px;
+            display: flex;
+            justify-content: space-around;
+            input {
+                height: 50px;
+               border-radius: 50px;
+               outline: 100px;
+            }
+            button {
+                height: 50px;
+                border-radius: 50px;
+                outline: 100px;
+                
+            }
+            
+    
+        }
